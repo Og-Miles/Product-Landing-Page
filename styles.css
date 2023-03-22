@@ -6,7 +6,7 @@
 }
 
 
-.first >h1{
+#first >h1{
     font-weight: 900;
     font-size: 40px;
 }
@@ -19,6 +19,9 @@ li{
     align-items: center;
     justify-content: space-between;
     margin: 6px 50px;
+    position: fixed;
+    background-color: white;
+    width: 90%;
 }
 #header-img{
     height: 100px;
@@ -54,7 +57,7 @@ ul{
     list-style: none;
 }
 
-.first{
+#first{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,14 +73,14 @@ ul{
     justify-content: space-between;
 }
 
-.second{
+#second{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px ;
     
 }
-.second .one, .second .two, .second .three{
+#second .one, #second .two, #second #three{
     flex-direction: column;
     margin-bottom: 50px;
     
@@ -88,7 +91,7 @@ video{
     margin: 0 auto;
 }
 
-.fourth{
+#fourth{
     display: flex;
     margin: 20px auto;
     align-items: center;
@@ -122,4 +125,15 @@ button{
     color: white;
     padding: 6px;
     border-radius: 6px;
+}
+
+@media screen and (max-width: 812px ) {
+    
+    #fourth{
+        display: flex;
+        margin: 20px auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

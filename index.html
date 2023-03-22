@@ -9,30 +9,32 @@
 </head>
 <body>
     
-    <main>
+    
         <header id="header">
             <img src="./Media/Snapify.png" alt="Logo" id="header-img" >
             <nav id="nav-bar">
                 <ul class="nav-link">
-                    <li>Features</li>
-                    <li>How it works</li>
-                    <li>Pricing</li>
+                    <li><a href="#first" class="nav-link">Features</a> </li>
+                    <li ><a href="#second" class="nav-link">How it works</a> </li>
+                    <li ><a href="#third" class="nav-link">Pricing</a> </li>
+                  
                     <button>Login</button>
                 </ul>
             </nav>
         </header>
+        
 
-        <section class="first">
+        <section id="first">
             <h1>Capture, like never before</h1>
             <form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
                 <label for="email">
-                    <input type="email" id="email" placeholder="Please enter your email address">
+                    <input type="email" name="email" id="email" placeholder="Please enter your email address">
                 </label>
                 <input type="submit" id="submit">
             </form>
         </section>
 
-        <section class="second">
+        <section id="second">
             <div class="description">
                 <div class="one">
                     <h2>Camera</h2>
@@ -52,11 +54,11 @@
 
         </section>
 
-        <section class="third">
-            <video src="./Media/Pexels Videos 1998560.mp4" controls></video>
+        <section id="third">
+            <video src="./Media/Pexels Videos 1998560.mp4" controls id="video"></video>
         </section>
 
-        <section class="fourth">
+        <section id="fourth">
             <div class="container">
                 <div class="header">
                     <h3>Camera Stand</h3>
@@ -92,6 +94,7 @@
         </section>
 
         
-    </main>
+   
+        
 </body>
 </html>
